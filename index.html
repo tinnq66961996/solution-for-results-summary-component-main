@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body>
+        <main class="container">
+            <div class="header__result">
+                <header class="header__result--box">
+                    <p class="header__result--your">Your Result</p>
+                    <div class="header__result--score">
+                        <h1 class="header__result--score--primary">76</h1>
+                        <p class="header__result--score--sub">of 100</p>
+                    </div>
+                </header>
+                <div class="header__comment">
+                    <h2 class="header__comment--primary">Great</h2>
+                    <p class="header__comment--sub">
+                        Your performance exceed 65% of the people conducting the
+                        test here!
+                    </p>
+                </div>
+            </div>
+            <section class="summary">
+                <h2 class="summary__heading">Summary</h2>
+                <div class="summary__detail">
+                    <div class="summary__detail--reaction">
+                        <img
+                            src="assets/images/icon-reaction.svg"
+                            alt="Reaction icon"
+                            class="summary__detail--reaction--icon"
+                        />
+                        <p class="summary__detail--reaction--text">Reaction</p>
+                        <p
+                            class="summary__detail--scores summary__detail--reaction--score"
+                        >
+                            80/<span class="summary__detail--maximum--score"
+                                >100</span
+                            >
+                        </p>
+                    </div>
+                    <div class="summary__detail--memory">
+                        <img
+                            src="assets/images/icon-memory.svg"
+                            alt="Memory icon"
+                            class="summary__detail--memory--icon"
+                        />
+                        <p class="summary__detail--memory--text">Memory</p>
+                        <p
+                            class="summary__detail--scores summary__detail--memory--score"
+                        >
+                            92/<span class="summary__detail--maximum--score"
+                                >100</span
+                            >
+                        </p>
+                    </div>
+                    <div class="summary__detail--verbal">
+                        <img
+                            src="assets/images/icon-verbal.svg"
+                            alt="Verbal icon"
+                            class="summary__detail--verbal--icon"
+                        />
+                        <p class="summary__detail--verbal--text">Verbal</p>
+                        <p
+                            class="summary__detail--scores summary__detail--verbal--score"
+                        >
+                            61/<span class="summary__detail--maximum--score"
+                                >100</span
+                            >
+                        </p>
+                    </div>
+                    <div class="summary__detail--visual">
+                        <img
+                            src="assets/images/icon-visual.svg"
+                            alt="Visual icon"
+                            class="summary__detail--visual--icon"
+                        />
+                        <p class="summary__detail--visual--text">Visual</p>
+                        <p
+                            class="summary__detail--scores summary__detail--visual--score"
+                        >
+                            73/<span class="summary__detail--maximum--score"
+                                >100</span
+                            >
+                        </p>
+                    </div>
+                </div>
+                <button class="continue__button">Continue</button>
+            </section>
+        </main>
+    </body>
+</html>

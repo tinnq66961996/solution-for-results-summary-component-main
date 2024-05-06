@@ -1,0 +1,63 @@
+.header__result {
+    &--your {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: $light-blue-neutral;
+    }
+    &--score--primary {
+        font-size: 5.6rem;
+        font-weight: bolder;
+        color: $white-neutral;
+    }
+    &--score--sub {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: $light-blue-neutral;
+    }
+}
+
+.header__comment {
+    &--primary {
+        font-size: 2.4rem;
+        color: $white-neutral;
+        font-weight: bold;
+    }
+    &--sub {
+        font-size: 1.6rem;
+        font-weight: medium;
+        color: $light-blue-neutral;
+    }
+}
+
+@include respond(big-desktop) {
+    .header__result {
+        &--your {
+            font-size: 2.4rem;
+            font-weight: bold;
+            color: $light-blue-neutral;
+        }
+        &--score--primary {
+            font-size: 7.2rem;
+            font-weight: bolder;
+            color: $white-neutral;
+        }
+        &--score--sub {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: $light-blue-neutral;
+        }
+    }
+
+    .header__comment {
+        &--primary {
+            font-size: 3.2rem;
+            color: $white-neutral;
+            font-weight: bold;
+        }
+        &--sub {
+            font-size: 1.8rem;
+            font-weight: medium;
+            color: $light-blue-neutral;
+        }
+    }
+}

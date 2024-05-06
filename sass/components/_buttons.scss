@@ -1,0 +1,25 @@
+button {
+    background-color: $dark-navy-neutral;
+    color: $white-neutral;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 12.8rem;
+    margin-top: 0.5rem;
+    transition: all ease-out;
+}
+
+@include respond(big-desktop) {
+    button {
+        border: none;
+        margin-top: 1rem;
+        &:active,
+        &:hover {
+            background-image: linear-gradient(
+                to right,
+                $light-slate-blue-background-gradient,
+                $light-royal-blue-background-gradient
+            );
+        }
+    }
+}

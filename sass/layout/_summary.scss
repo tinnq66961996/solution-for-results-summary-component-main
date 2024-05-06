@@ -1,0 +1,112 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    &__detail {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        &--reaction {
+            height: 5.6rem;
+            display: flex;
+            padding: 2rem;
+            align-items: center;
+            gap: 1rem;
+            border-radius: 1.2rem;
+            background-color: $blend-red-95;
+            font-size: 1.6rem;
+            color: $light-red-primary;
+        }
+        &--memory {
+            height: 5.6rem;
+            display: flex;
+            padding: 2rem;
+            align-items: center;
+            gap: 1rem;
+            border-radius: 1.2rem;
+            background-color: $blend-yellow-95;
+            font-size: 1.6rem;
+            color: $orangey-yellow-primary;
+        }
+        &--verbal {
+            height: 5.6rem;
+            display: flex;
+            padding: 2rem;
+            align-items: center;
+            gap: 1rem;
+            border-radius: 1.2rem;
+            background-color: $blend-green-95;
+            font-size: 1.6rem;
+            color: $green-teal-primary;
+        }
+        &--visual {
+            height: 5.6rem;
+            display: flex;
+            padding: 2rem;
+            align-items: center;
+            gap: 1rem;
+            border-radius: 1.2rem;
+            background-color: $blend-blue-95;
+            font-size: 1.6rem;
+            color: $cobalt-blue-primary;
+        }
+        &--scores {
+            margin-left: auto;
+        }
+    }
+}
+span {
+    opacity: 50%;
+}
+
+@include respond(big-desktop) {
+    .summary {
+        width: 36.8rem;
+        height: 100%;
+        padding: 4rem;
+        gap: 3rem;
+        &__detail {
+            gap: 2rem;
+            &--reaction {
+                padding: 2rem;
+                align-items: center;
+                gap: 1rem;
+                border-radius: 1.2rem;
+                background-color: $blend-red-95;
+                font-size: 1.8rem;
+                color: $light-red-primary;
+            }
+            &--memory {
+                padding: 2rem;
+                align-items: center;
+                gap: 1rem;
+                border-radius: 1.2rem;
+                background-color: $blend-yellow-95;
+                font-size: 1.8rem;
+                color: $orangey-yellow-primary;
+            }
+            &--verbal {
+                padding: 2rem;
+                align-items: center;
+                gap: 1rem;
+                border-radius: 1.2rem;
+                background-color: $blend-green-95;
+                font-size: 1.8rem;
+                color: $green-teal-primary;
+            }
+            &--visual {
+                padding: 2rem;
+                align-items: center;
+                gap: 1rem;
+                border-radius: 1.2rem;
+                background-color: $blend-blue-95;
+                font-size: 1.8rem;
+                color: $cobalt-blue-primary;
+            }
+            &--scores {
+                margin-left: auto;
+            }
+        }
+    }
+}

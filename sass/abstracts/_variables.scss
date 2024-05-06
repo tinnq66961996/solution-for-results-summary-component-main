@@ -1,0 +1,24 @@
+//Primary color
+$light-red-primary: hsl(0, 100%, 67%);
+$orangey-yellow-primary: hsl(39, 100%, 56%);
+$green-teal-primary: hsl(166, 100%, 37%);
+$cobalt-blue-primary: hsl(234, 85%, 45%);
+
+//Gradients
+$light-slate-blue-background-gradient: hsl(252, 100%, 67%);
+$light-royal-blue-background-gradient: hsl(241, 81%, 54%);
+
+$violet-blue-circle-gradient: hsla(256, 72%, 46%, 1);
+$persian-blue-circle-gradient: hsla(241, 72%, 46%, 0);
+
+//Neutral
+$white-neutral: hsl(0, 0%, 100%);
+$very-light-blue-neutral: hsl(221, 100%, 96%);
+$light-blue-neutral: hsl(241, 100%, 89%);
+$dark-navy-neutral: hsl(224, 30%, 27%);
+$white-neutral-95: hsl(0, 0%, 95%);
+
+$blend-red-95: mix($light-red-primary, $white-neutral-95, 10%);
+$blend-yellow-95: mix($orangey-yellow-primary, $white-neutral-95, 10%);
+$blend-green-95: mix($green-teal-primary, $white-neutral-95, 10%);
+$blend-blue-95: mix($cobalt-blue-primary, $white-neutral-95, 10%);

@@ -1,0 +1,54 @@
+.header__result {
+    background: linear-gradient(
+        to bottom,
+        $light-slate-blue-background-gradient,
+        $light-royal-blue-background-gradient
+    );
+    height: 35.6rem;
+    border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 4rem;
+    text-align: center;
+    &--box {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+.header__result--score {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: linear-gradient(
+        to bottom,
+        $violet-blue-circle-gradient,
+        $persian-blue-circle-gradient
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.header__comment {
+    width: 26rem;
+    height: 8.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@include respond(big-desktop) {
+    .header__result {
+        width: 36.8rem;
+        height: 100%;
+        &--score {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+}
